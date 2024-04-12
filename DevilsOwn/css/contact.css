@@ -1,38 +1,42 @@
-body 
-{
-    background-image: url('../src/img/bg8.jpg');
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('../src/img/bg8.jpg'); /* Adjusted path */
     background-size: cover;
 }
-
+form {
+    height: 100%;
+    width: 80%; /* Adjust as needed */
+    margin: auto;
+}
 
 .bg-image 
 {
-    background-image: url('../src/img/bg4.jpg');
+    background-image: url('../src/img/bg4.jpg'); /* Adjusted path */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 1000px;
+    
 }
 
 .custom-card 
 {
     border-radius: 1rem;
-    width: 1200px;
-    max-width: none;
-}
 
-.svg-overlay::before 
-{
+}
+.svg-overlay::before {
     content: "";
-    background-image: url('../src/svg/logo-no-background.svg');
+    background-image: url('../src/svg/logo-no-background.svg'); /* Adjusted path */
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 50%;
+    background-origin: padding-box;
+    background-position: 17% center; /* Adjust as needed */
+    background-size: 20%;
     opacity: 3; /* Adjust as needed */
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     position: absolute;
-  
 }
