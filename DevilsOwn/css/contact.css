@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('../src/img/bg8.jpg'); /* Adjusted path */
+    background-size: cover;
+}
+form {
+    height: 100%;
+    width: 80%; /* Adjust as needed */
+    margin: auto;
+}
+
+.bg-image 
+{
+    background-image: url('../src/img/bg4.jpg'); /* Adjusted path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.custom-card 
+{
+    border-radius: 1rem;
+
+}
+.svg-overlay::before {
+    content: "";
+    background-image: url('../src/svg/logo-no-background.svg'); /* Adjusted path */
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-position: 17% center; /* Adjust as needed */
+    background-size: 20%;
+    opacity: 3; /* Adjust as needed */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
