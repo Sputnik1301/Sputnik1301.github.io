@@ -79,4 +79,15 @@ body
     padding-top: 100px;
     min-height: 200vh;
 }
+
+.logo-svg 
+{
+  width: 400px;
+  height: auto;
+  margin-bottom: 1em;
+}
+.svg-button:hover .logo-svg 
+{
+  opacity: 0.7;
+}
 /* STYLES */
